@@ -2052,7 +2052,6 @@ void TCling::RegisterModule(const char* modulename,
       // if (!LoadPCM(pcmFileNameFullPath.str().str())) {
       //    ::Error("TCling::RegisterModule", "cannot find dictionary module %s",
       //            ROOT::TMetaUtils::GetModuleFileName(modulename).c_str());
-      }
    }
 
    clang::Sema &TheSema = fInterpreter->getSema();
